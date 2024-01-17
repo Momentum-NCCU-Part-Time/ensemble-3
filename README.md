@@ -94,46 +94,54 @@ These developers make suggestions to the Navigator, the Driver, and the Scout, a
 
 ## The Shifts & Roles
 
-### 5-person team
+### 6-person team
 
 #### shift 1
 
-- driver: DEV-A
-- navigator: DEV-B
-- moderator: DEV-C
-- scout: DEV-D
-- contributor: DEV-E
+- driver: Courtney
+- navigator: Lynerd
+- moderator: Rhonda
+- scout: Girish
+- contributors: Sai, Ross
 
 #### shift 2
 
-- driver: DEV-B
-- navigator: DEV-C
-- moderator: DEV-D
-- scout: DEV-E
-- contributors: DEV-A
+- driver: Girish
+- navigator: Courtney
+- moderator: Lynerd
+- scout: Ross
+- contributors: Rhonda, Sai
 
 #### shift 3
 
-- driver: DEV-C
-- navigator: DEV-D
-- moderator: DEV-E
-- scout: DEV-A
-- contributors: DEV-B
+- driver: Ross
+- navigator: Girish
+- moderator: Courtney
+- scout: Sai
+- contributors: Lynerd, Rhonda
 
 #### shift 4
 
-- driver: DEV-D
-- navigator: DEV-E
-- moderator: DEV-A
-- scout: DEV-B
-- contributors: DEV-C
+- driver: Sai
+- navigator: Ross
+- moderator: Girish
+- scout: Rhonda
+- contributors: Courtney, Lynerd
 
 #### shift 5
 
-- driver: DEV-E
-- navigator: DEV-A
-- moderator: DEV-B
-- scout: DEV-C
-- contributors: DEV-D
+- driver: Rhonda
+- navigator: Sai
+- moderator: Ross
+- scout: Lynerd
+- contributors: Courtney, Girish
 
-#### shift 6 -> start over at shift 1
+#### shift 6
+
+- driver: Lynerd
+- navigator: Rhonda
+- moderator: Sai
+- scout: Courtney
+- contributors: Girish, Ross
+
+#### shift 7 -> start over at shift 1
