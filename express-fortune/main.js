@@ -14,6 +14,18 @@ app.get("/api/fortune", (req, res) => {
   const randomFortune = fortune[Math.floor(Math.random() * fortune.length)];
   res.json({ Fortune: randomFortune });
 } ) 
+app.get("/api/fortune", (req, res) => {
+  const {category} = 
+  const loveFortune = [
+    "Love is in the air.",
+    "Love is around the corner.",
+    "Happy valentines day.",
+    "Love birds will fly together."
+  ];
+  const randomLoveFortune = loveFortune[Math.floor(Math.random() * loveFortune.length)];
+  res.json({ Fortune: randomLoveFortune });
+})
+
  app.listen(config.port, () => {
 
     console.log('App listening on http://localhost:${config.port}');
