@@ -2,7 +2,6 @@ const express = require('express');
 
 const app = express();
 const config = { port: process.env.PORT || 3000 }
-const cors = require('cors')
 app.get("/api/fortune", (req, res) => {
   const fortune =
     [
@@ -17,5 +16,8 @@ app.get("/api/fortune", (req, res) => {
   const randomFortune = fortune[Math.floor(Math.random() * fortune.length)];
 
   res.json({ Fortune: randomFortune });
+  app.listen(config.port, () => {
 
-})
+    console.log('App listening on http://localhost:${config.port}');
+  } ) 
+  })

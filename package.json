@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "express-fortune/main.js"
+    "start": "node express-fortune/main.js"
   },
   "keywords": [],
   "author": "",
